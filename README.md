@@ -1,2 +1,1 @@
-# A-Semi-Automated-Pipeline-for-Machine-Learning
-Using R
+This R pipeline demonstrates how to automate a machine learning workflow. It begins by ingesting data, cleaning and validating it, then performing regression modelling. The data is processed through three key scripts: ingestion, validation, and machine learning. The workflow splits data into training and testing sets, builds a model, validates it, and computes accuracy (RMSE). Finally, it automates the execution of the entire process using TaskScheduler, scheduling the machine learning script to run at a specific time. Each step is saved as an R script to ensure modularity and reusability.
